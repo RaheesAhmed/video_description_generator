@@ -18,6 +18,18 @@ Before running the script, make sure you have the following installed:
 - OpenAI Python library
 - Requests library
 
+Clone the Repo:
+
+```
+git clone https://github.com/RaheesAhmed/video_description_generator.git
+```
+
+Navigate to the Directory:
+```
+cd video_description_generator
+```
+
+
 You can install the required libraries using pip:
 
 ```
