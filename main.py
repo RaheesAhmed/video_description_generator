@@ -78,3 +78,10 @@ audio = b""
 for chunk in response.iter_content(chunk_size=1024 * 1024):
     audio += chunk
 Audio(audio)
+
+
+# Save the audio to a file
+with open("generated_audio.mp3", "wb") as f:
+    f.write(audio)
+
+print("Audio saved as 'generated_audio.mp3'")
